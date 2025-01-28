@@ -10,12 +10,12 @@ const Sidebar = () => {
                 <span>Dashboard <small>v.01</small></span>
             </div>
             <ul className="menu">
-                <li><i className="icon-dashboard"></i> Dashboard</li>
-                <li><i className="icon-box"></i> Product</li>
-                <li className="active"><i className="icon-user"></i> Customers</li>
-                <li><i className="icon-income"></i> Income</li>
-                <li><i className="icon-promote"></i> Promote</li>
-                <li><i className="icon-help"></i> Help</li>
+                <li><i className="icon-dashboard"></i> 🔐 Dashboard</li>
+                <li><i className="icon-box"></i> 📦 Product</li>
+                <li className="active"><i className="icon-user"></i> 👮‍♂️ Customers</li>
+                <li><i className="icon-income"></i> 💸 Income</li>
+                <li><i className="icon-promote"></i> 🏷️ Promote</li>
+                <li><i className="icon-help"></i> 🆘 Help</li>
             </ul>
         </div>
     );
