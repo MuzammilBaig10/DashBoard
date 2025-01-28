@@ -44,3 +44,60 @@
 .menu li i {
   font-size: 18px;
 }
+
+/* Upgrade to Pro Section */
+.upgrade-box {
+  background: linear-gradient(45deg, #a855f7, #4f46e5);
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin-top: 150px;
+}
+
+.upgrade-box button {
+  background: white;
+  color: #4f46e5;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.upgrade-box button:hover {
+  background: #ddd;
+}
+
+/* User Profile */
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.user-info small {
+  font-size: 12px;
+  color: gray;
+}
