@@ -45,7 +45,6 @@
   font-size: 18px;
 }
 
-/* Upgrade to Pro Section */
 .upgrade-box {
   background: linear-gradient(45deg, #a855f7, #4f46e5);
   padding: 15px;
@@ -71,7 +70,6 @@
   background: #ddd;
 }
 
-/* User Profile */
 .user-profile {
   display: flex;
   align-items: center;
@@ -104,23 +102,33 @@
 }
 
 .main-content {
+  margin-left: 16rem;
   flex: 1;
-  padding: 20px;
-  background: #fff;
-  font-family: 'poppins';
+  padding: 2rem;
+  
 }
 
 .top-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #000000;
+  margin-bottom: 2rem;
+  margin-top: -720px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
 }
 
+
 .search-bar {
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  width: 200px;
+  position: relative;
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
 }
 
 .stats-container {
