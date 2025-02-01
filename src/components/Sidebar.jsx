@@ -11,7 +11,7 @@ import message from '../assets/message.svg'
 
 const Sidebar = () => {
     return (
-        <div className="sidebar">
+        <div className= "sidebar">
             <div className="logo">
                 <img src={logo} alt="Logo" />
                 <div>Dashboard <small>v.01</small></div>

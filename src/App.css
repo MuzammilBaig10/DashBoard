@@ -113,7 +113,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  margin-top: -720px;
+  margin-top: -796px;
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -172,3 +172,71 @@
   border-radius: 50%;
   margin-right: -7px;
 }
+
+.customer-table-container {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'poppins';
+  margin-left: 16rem;
+  flex: 1;
+  padding: 2rem;
+  margin-top: -600px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.active-members {
+  color: #22c55e;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.status-active {
+  color: white;
+  background: #22c55e;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.status-inactive {
+  color: white;
+  background: #ef4444;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.pagination span {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
